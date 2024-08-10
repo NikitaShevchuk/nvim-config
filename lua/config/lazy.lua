@@ -48,10 +48,10 @@ require("lazy").setup({
 })
 
 vim.cmd([[
-  hi Normal guibg=NONE ctermbg=NONE
-  hi NormalNC guibg=NONE ctermbg=NONE
-  hi NvimTreeNormal guibg=NONE ctermbg=NONE
-  hi NvimTreeNormalNC guibg=NONE ctermbg=NONE
-  hi NeoTreeNormal guibg=NONE ctermbg=NONE
-  hi NeoTreeNormalNC guibg=NONE ctermbg=NONE
+   hi Normal guibg=NONE ctermbg=NONE
+   hi NormalNC guibg=NONE ctermbg=NONE
+   hi NvimTreeNormal guibg=NONE ctermbg=NONE
+   hi NvimTreeNormalNC guibg=NONE ctermbg=NONE
+   hi NeoTreeNormal guibg=NONE ctermbg=NONE
+   hi NeoTreeNormalNC guibg=NONE ctermbg=NONE
 ]])
