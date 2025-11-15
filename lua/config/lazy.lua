@@ -20,6 +20,17 @@ require("lazy").setup({
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     -- import/override with your plugins
     { import = "plugins" },
+
+    { import = "lazyvim.plugins.extras.linting.eslint" },
+    { import = "lazyvim.plugins.extras.lang.typescript" },
+    { import = "lazyvim.plugins.extras.formatting.prettier" },
+    { import = "lazyvim.plugins.extras.lang.yaml" },
+    { import = "lazyvim.plugins.extras.lang.json" },
+    { import = "lazyvim.plugins.extras.vscode" },
+
+    -- Optional plugins
+    -- { import = "lazyvim.plugins.extras.lang.angular" },
+    { import = "lazyvim.plugins.extras.lang.prisma" },
   },
   defaults = {
     -- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
@@ -51,3 +62,13 @@ require("lazy").setup({
     },
   },
 })
+
+vim.cmd([[
+   hi Normal guibg=NONE ctermbg=NONE
+   hi NormalNC guibg=NONE ctermbg=NONE
+   hi NvimTreeNormal guibg=NONE ctermbg=NONE
+   hi NvimTreeNormalNC guibg=NONE ctermbg=NONE
+   hi NeoTreeNormal guibg=NONE ctermbg=NONE
+   hi NeoTreeNormalNC guibg=NONE ctermbg=NONE
+   hi LineNr guibg=NONE ctermbg=NONE
+]])
