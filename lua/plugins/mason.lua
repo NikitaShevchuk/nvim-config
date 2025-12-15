@@ -12,6 +12,9 @@ return {
       "shellcheck",
       "delve",
       "sql-formatter",
+      "csharpier",
+      "netcoredbg",
+      "fantomas",
     },
   },
 }

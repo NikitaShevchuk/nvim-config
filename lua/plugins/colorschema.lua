@@ -1,11 +1,12 @@
 return {
-  { "Mofiqul/vscode.nvim", name = "vscode", lazy = false, priority = 1000 },
-  { "rose-pine/neovim" },
+  { "Mofiqul/vscode.nvim", name = "vscode", lazy = true },
+  { "rose-pine/neovim", lazy = true },
+  { "rebelot/kanagawa.nvim", lazy = false, priority = 1000 },
 
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "vscode",
+      colorscheme = "kanagawa-dragon",
     },
   },
 }
